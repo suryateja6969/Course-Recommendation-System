@@ -1,0 +1,17 @@
+[project]
+name = "course-recommendation-research"
+version = "0.1.0"
+description = "Explainable course recommender with multiple models + Streamlit prototype (research workflow)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  "joblib>=1.4",
+  "pyarrow>=15.0",
+  "shap>=0.45",
+  "streamlit>=1.33",
+]
